@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:weightSum="6" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#0ADAED"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="CONVERTER" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_weight="1"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioLen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0ADAED"
+            android:checked="true"
+            android:textSize="24sp"
+            android:text="Length" />
+
+        <RadioButton
+            android:id="@+id/radioWe"
+            android:layout_width="wrap_content"
+            android:textColor="#0ADAED"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="Weight &amp; mass" />
+
+        <RadioButton
+            android:id="@+id/radioTem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0ADAED"
+            android:textSize="24sp"
+            android:text="Temperature" />
+        <RadioButton
+            android:id="@+id/radioAng"
+            android:layout_width="wrap_content"
+            android:textColor="#0ADAED"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:text="Angle" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#030133"
+        android:textColor="#0ADAED"
+        
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint=".........."
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#0ADAED"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:background="#030133"
+        android:textStyle="bold"
+        android:textColor="#0ADAED"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="........"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#0ADAED"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>

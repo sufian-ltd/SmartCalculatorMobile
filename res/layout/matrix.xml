@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000"
+    android:weightSum="6">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_weight=".5"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:text="MATRIX" />
+
+    <EditText
+        android:id="@+id/editTextFirstMat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:ems="10"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:hint="enter First Matrix\nseperated by space"
+        android:inputType="textMultiLine" >
+
+    </EditText>
+    <EditText
+        android:id="@+id/editTextSecMat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:ems="10"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:hint="enter Second Matrix\nseperated by space"
+        android:inputType="textMultiLine" >
+
+    </EditText>
+	<EditText
+        android:id="@+id/editTextMatrixResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:editable="false"
+        android:hint="result : "
+        android:inputType="textMultiLine" >
+
+    </EditText>
+    <Spinner
+        android:id="@+id/spinnerMatrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        android:layout_marginBottom="10dp"/>
+	
+</LinearLayout>

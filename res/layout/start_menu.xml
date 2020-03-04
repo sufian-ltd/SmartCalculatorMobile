@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="#000"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".StartMenu" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="SMART CALCULATOR"
+        android:textColor="#CD0101"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+
+        <Button
+        android:id="@+id/buttonSci"
+        android:layout_marginBottom="20dp"
+        android:layout_width="200dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#02590C"
+        android:layout_height="match_parent"
+        android:onClick="startMenuButtonsClick"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:text="SCIENTIFIC" />
+
+    <Button
+        android:id="@+id/buttonCon"
+        android:layout_width="200dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:onClick="startMenuButtonsClick"
+        android:layout_marginBottom="20dp"
+        android:background="#FF7300"
+        android:layout_gravity="center"
+        android:text="CONVERTER"
+        android:textStyle="bold" />
+ 
+    <Button
+        android:id="@+id/buttonMat"
+        android:layout_weight="1"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:onClick="startMenuButtonsClick"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:layout_gravity="center"
+        android:text="MATRIX"
+        android:background="#041196"
+        android:textStyle="bold" />
+   
+
+    
+    <Button
+        android:id="@+id/buttonGeo"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="startMenuButtonsClick"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="23sp"
+        android:layout_marginBottom="20dp"
+        android:background="#CD0101"
+        android:text="GEOMETRIC"
+        android:textStyle="bold" />  
+
+    
+    <Button
+        android:id="@+id/buttonProg"
+        android:layout_width="200dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:onClick="startMenuButtonsClick"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:layout_gravity="center"
+        android:background="#041196"
+        android:layout_marginBottom="20dp"
+        android:text="PROGRAMMER"
+        android:textStyle="bold" />
+    
+
+</LinearLayout>
